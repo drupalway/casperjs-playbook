@@ -1,0 +1,5 @@
+---
+- src: nicolai86.phantomjs
+- src: kbrebanov.python
+- src: gotansible.nodejs
+- src: geerlingguy.git

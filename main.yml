@@ -6,7 +6,8 @@
 
   roles:
     # Roles list.
-    - python
-    - nodejs
-    - phantomjs
+    - geerlingguy.git
+    - kbrebanov.python
+    - gotansible.nodejs
+    - nicolai86.phantomjs
     - casperjs
