@@ -9,6 +9,5 @@
     - nodejs
     - casperjs
 
-
   post_tasks:
     # Post tasks.
