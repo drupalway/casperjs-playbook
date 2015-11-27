@@ -6,7 +6,9 @@
 
   roles:
     # Roles list.
+    - python
     - nodejs
+    - phantomjs
     - casperjs
 
   post_tasks:

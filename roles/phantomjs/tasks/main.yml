@@ -1,0 +1,8 @@
+---
+
+- name: Install PhantomJS via npm
+  when: nodejs_installed
+  npm:
+    name: 'phantomjs'
+    global: yes
+  sudo: yes
