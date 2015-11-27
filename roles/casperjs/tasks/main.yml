@@ -1,0 +1,7 @@
+---
+
+- name: Install CasperJS via Node.js package manager(npm)
+  npm:
+    name: 'casperjs'
+    global: yes
+  sudo: yes
