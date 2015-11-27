@@ -13,8 +13,6 @@ install:
   - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
 
 script:
-  # Make sure Ansible requirements install correctly.
-  - 'ansible-galaxy install -r requirements.yml --force'
 
   # Run Ansible's syntax and playbook check on the main playbook.
   - 'printf "test\n\rtest\n\r" | ansible-playbook -i "localhost," -c local main.yml --syntax-check'
