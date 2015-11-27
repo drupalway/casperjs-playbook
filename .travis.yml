@@ -18,4 +18,4 @@ script:
   - 'printf "test\n\rtest\n\r" | ansible-playbook -i "localhost," -c local main.yml --syntax-check'
 
   # Run the playbook with ansible-playbook.
-  - 'printf "test\n\rtest\n\r" | sh run.sh'
+  - 'printf "test\n\rtest\n\r" | ansible-playbook -i "localhost," -c local main.yml --sudo'
