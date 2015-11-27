@@ -1,0 +1,20 @@
+---
+
+- hosts: localhost
+  connection: local
+  sudo: yes
+
+  vars_files:
+    # Var files.
+
+  pre_tasks:
+    # Pre tasks.
+
+  roles:
+    # Roles list.
+
+  tasks:
+    # Tasks.
+
+  post_tasks:
+    # Post tasks.
