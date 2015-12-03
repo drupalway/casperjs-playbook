@@ -1,3 +1,4 @@
 ---
 - src: nicolai86.phantomjs
 - src: gotansible.nodejs
+- src: geerlingguy.git
