@@ -1,0 +1,6 @@
+---
+- name: Install mailutils for sending emails
+  apt: pkg={{ item }} update_cache=yes
+  with_items:
+    - mailutils
+  sudo: yes
